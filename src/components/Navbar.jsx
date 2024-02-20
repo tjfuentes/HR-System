@@ -1,9 +1,8 @@
 import React from "react";
 import "boxicons";
-import bell from "../assets/bell.svg";
-import message from "../assets/message.svg";
 import tj from "../assets/tj.jfif";
 import search from "../assets/search.svg";
+import { navHover, sideHover } from "../constants/hover";
 
 const Navbar = () => {
   return (
@@ -23,20 +22,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex px-4 py-2 space-x-5">
-        <img
-          src={bell}
-          alt="bell"
-          width="35px"
-          height="35px"
-          className="cursor-pointer"
-        />
-        <img
-          src={message}
-          alt="message"
-          width="35px"
-          height="35px"
-          className="cursor-pointer"
-        />
+        <i className={`bx bx-bell text-[35px] cursor-pointer ${navHover}`}></i>
+        <i
+          className={`bx bx-message-rounded-dots text-[35px] cursor-pointer ${navHover}`}
+        ></i>
         <img
           src={tj}
           alt="tj"

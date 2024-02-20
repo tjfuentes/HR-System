@@ -8,7 +8,7 @@ const Sidebar = () => {
       <Link
         className={`flex items-center space-x-3 py-2 px-3 rounded-lg ${sideHover}`}
       >
-        <i className="bx bx-home-alt text-xl"></i>
+        <i className="bx bxs-home text-xl"></i>
         <h4 className="font-medium">Home</h4>
       </Link>
       <Link
@@ -20,13 +20,13 @@ const Sidebar = () => {
       <Link
         className={`flex items-center space-x-3 py-2 px-3 rounded-lg ${sideHover}`}
       >
-        <i className="bx bx-wallet text-xl"></i>
+        <i className="bx bxs-wallet text-xl"></i>
         <h4 className="font-medium">Payroll</h4>
       </Link>
       <Link
         className={`flex items-center space-x-3 py-2 px-3 rounded-lg ${sideHover}`}
       >
-        <i className="bx bx-cog text-xl"></i>
+        <i className="bx bxs-cog text-xl"></i>
         <h4 className="font-medium">Settings</h4>
       </Link>
       <Link
