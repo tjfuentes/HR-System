@@ -7,7 +7,7 @@ import search from "../assets/search.svg";
 
 const Navbar = () => {
   return (
-    <nav className="m-5 p-3 flex justify-between items-center">
+    <nav className="m-5 p-3 flex justify-between items-center bg-crdbg rounded-lg">
       <div className="flex justify-evely items-center">
         <label class="relative block">
           <span class="absolute inset-y-0 left-0 flex items-center pl-2">
